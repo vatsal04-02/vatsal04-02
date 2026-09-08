@@ -1,0 +1,9 @@
+# Only needed locally, to run generate_portrait.py by hand.
+# generate_stats.py (the nightly CI script) has zero dependencies on purpose.
+pillow
+numpy
+opencv-python-headless
+rembg
+onnxruntime
+fonttools
+brotli
