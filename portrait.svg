@@ -1,0 +1,937 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 717 768" width="717" height="768">
+  <style>
+    
+    text { font-family: 'JBM-Body', 'JBM-Head', ui-monospace, monospace; }
+    .head { font-family: 'JBM-Head', ui-monospace, monospace; }
+    .ramp { font-family: 'JBM-Ramp', ui-monospace, monospace; }
+    .ramp { white-space: pre; letter-spacing: 0; }
+  </style>
+  
+  <clipPath id="clip0">
+    <rect x="10" y="10.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.00s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip0)">
+    <text x="10" y="22.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="10.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.00s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.40s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip1">
+    <rect x="10" y="22.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.09s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip1)">
+    <text x="10" y="35.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="22.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.09s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.49s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip2">
+    <rect x="10" y="35.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.18s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip2)">
+    <text x="10" y="48.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="35.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.18s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.58s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip3">
+    <rect x="10" y="48.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.27s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip3)">
+    <text x="10" y="61.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="48.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.27s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.67s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip4">
+    <rect x="10" y="61.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.36s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip4)">
+    <text x="10" y="74.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="61.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.36s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.76s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip5">
+    <rect x="10" y="74.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.45s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip5)">
+    <text x="10" y="87.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="74.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.45s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.85s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip6">
+    <rect x="10" y="87.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.54s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip6)">
+    <text x="10" y="100.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="87.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.54s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="0.94s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip7">
+    <rect x="10" y="100.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.63s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip7)">
+    <text x="10" y="113.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="100.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.63s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.03s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip8">
+    <rect x="10" y="113.2" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.72s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip8)">
+    <text x="10" y="126.1" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="113.2" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.72s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.12s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip9">
+    <rect x="10" y="126.1" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.81s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip9)">
+    <text x="10" y="139.0" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="126.1" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.81s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.21s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip10">
+    <rect x="10" y="139.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.90s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip10)">
+    <text x="10" y="151.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="139.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.90s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.30s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip11">
+    <rect x="10" y="151.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="0.99s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip11)">
+    <text x="10" y="164.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="151.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="0.99s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.39s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip12">
+    <rect x="10" y="164.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.08s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip12)">
+    <text x="10" y="177.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="164.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.08s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.48s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip13">
+    <rect x="10" y="177.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.17s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip13)">
+    <text x="10" y="190.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                                                                          </text>
+    <rect x="10" y="177.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.17s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.57s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip14">
+    <rect x="10" y="190.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.26s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip14)">
+    <text x="10" y="203.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                        `-=+*ccc*=:.                                      </text>
+    <rect x="10" y="190.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.26s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.66s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip15">
+    <rect x="10" y="203.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.35s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip15)">
+    <text x="10" y="216.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                     .=csss#ss#%%@@%*`                                    </text>
+    <rect x="10" y="203.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.35s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.75s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip16">
+    <rect x="10" y="216.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.44s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip16)">
+    <text x="10" y="229.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                   `+s#######%%@@@@@@%*`                                  </text>
+    <rect x="10" y="216.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.44s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.84s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip17">
+    <rect x="10" y="229.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.53s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip17)">
+    <text x="10" y="242.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  `#%%#%%%@@@@@@@%%@@@%%c                                 </text>
+    <rect x="10" y="229.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.53s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="1.93s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip18">
+    <rect x="10" y="242.2" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.62s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip18)">
+    <text x="10" y="255.1" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  c%%@@%%%%#c+++++**s%@@c                                 </text>
+    <rect x="10" y="242.2" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.62s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.02s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip19">
+    <rect x="10" y="255.1" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.71s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip19)">
+    <text x="10" y="268.0" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  *@@%s*==-:````:-=+*#@@*                                 </text>
+    <rect x="10" y="255.1" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.71s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.11s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip20">
+    <rect x="10" y="268.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.80s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip20)">
+    <text x="10" y="280.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                   sscc+-=*c+-=-=+*ccs%@`                                 </text>
+    <rect x="10" y="268.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.80s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.20s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip21">
+    <rect x="10" y="280.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.89s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip21)">
+    <text x="10" y="293.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  :**#%@%%@@c+#sc%@@%#%#                                  </text>
+    <rect x="10" y="280.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.89s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.29s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip22">
+    <rect x="10" y="293.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="1.98s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip22)">
+    <text x="10" y="306.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  =*-s##%%%*``+%%%%%%s##+                                 </text>
+    <rect x="10" y="293.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="1.98s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.38s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip23">
+    <rect x="10" y="306.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.07s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip23)">
+    <text x="10" y="319.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  :*+=+++++++*ccsss#sc#s+                                 </text>
+    <rect x="10" y="306.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.07s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.47s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip24">
+    <rect x="10" y="319.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.16s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip24)">
+    <text x="10" y="332.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                  :c#c+=+++**ccc*=:=c##*:                                 </text>
+    <rect x="10" y="319.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.16s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.56s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip25">
+    <rect x="10" y="332.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.25s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip25)">
+    <text x="10" y="345.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                   :%#c++====+++++-c#%*-.                                 </text>
+    <rect x="10" y="332.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.25s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.65s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip26">
+    <rect x="10" y="345.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.34s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip26)">
+    <text x="10" y="358.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                    c@#c=::``::--+c#%#.                                   </text>
+    <rect x="10" y="345.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.34s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.74s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip27">
+    <rect x="10" y="358.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.43s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip27)">
+    <text x="10" y="371.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                     +@@%sc*++*cs%@@%`                                    </text>
+    <rect x="10" y="358.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.43s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.83s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip28">
+    <rect x="10" y="371.2" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.52s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip28)">
+    <text x="10" y="384.1" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                     .s##%%@@@@@@%%%s                                     </text>
+    <rect x="10" y="371.2" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.52s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="2.92s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip29">
+    <rect x="10" y="384.1" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.61s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip29)">
+    <text x="10" y="397.0" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                                   .=sc**cccss####ss#s.                                   </text>
+    <rect x="10" y="384.1" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.61s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.01s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip30">
+    <rect x="10" y="397.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.70s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip30)">
+    <text x="10" y="409.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                               .:*csss#+==++***c*ccs#%c.                                  </text>
+    <rect x="10" y="397.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.70s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.10s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip31">
+    <rect x="10" y="409.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.79s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip31)">
+    <text x="10" y="422.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                        .`:--=+c%%s#cs%#=-====+++*cs#%%#*-`                               </text>
+    <rect x="10" y="409.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.79s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.19s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip32">
+    <rect x="10" y="422.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.88s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip32)">
+    <text x="10" y="435.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                   .:-+****c#cc%%ssc#@@@s+---===+**c%%%%%##s*=:.                          </text>
+    <rect x="10" y="422.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.88s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.28s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip33">
+    <rect x="10" y="435.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="2.97s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip33)">
+    <text x="10" y="448.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                 -s%#sccccss##@%#s#%@@@@@%=`::`:--+%%@@@%%%%%sss+=`.                      </text>
+    <rect x="10" y="435.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="2.97s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.37s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip34">
+    <rect x="10" y="448.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.06s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip34)">
+    <text x="10" y="461.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">               .c###%%#sss#%#@%####%%%%%%%#-```:+#@@@@@@@@%#sc#c#sscc+-.                  </text>
+    <rect x="10" y="448.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.06s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.46s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip35">
+    <rect x="10" y="461.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.15s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip35)">
+    <text x="10" y="474.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">              .s######%%###%#%##ss######%%%%c:+%@@@@%%%@%%%sssss#s#s###s-                 </text>
+    <rect x="10" y="461.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.15s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.55s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip36">
+    <rect x="10" y="474.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.24s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip36)">
+    <text x="10" y="487.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">              *#######%%%%%#%##sss#######%%%%%@%%%%%%%%%###ssss#%########=                </text>
+    <rect x="10" y="474.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.24s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.64s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip37">
+    <rect x="10" y="487.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.33s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip37)">
+    <text x="10" y="500.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">             :%%#%%%%%%%@%%###ssss#####%#%%%@%%%#%#########s##s#%######%%%:               </text>
+    <rect x="10" y="487.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.33s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.73s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip38">
+    <rect x="10" y="500.2" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.42s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip38)">
+    <text x="10" y="513.1" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">             *%%%%%%%%%%@@%##sssss#####%%%%%%#%%%##############%##s##%%%%%c               </text>
+    <rect x="10" y="500.2" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.42s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.82s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip39">
+    <rect x="10" y="513.1" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.51s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip39)">
+    <text x="10" y="526.0" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">             c%%%%%%##%%@@%%#ssssss####%%%%%##%%%#############%%%#####%%%@@:              </text>
+    <rect x="10" y="513.1" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.51s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="3.91s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip40">
+    <rect x="10" y="526.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.60s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip40)">
+    <text x="10" y="538.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            .#%%%%##%%%%%@%%%##########%%%%%##%%#########%%%##%%##s#%%%%%%@`              </text>
+    <rect x="10" y="526.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.60s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.00s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip41">
+    <rect x="10" y="538.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.69s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip41)">
+    <text x="10" y="551.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            `#%%%%%%#%%%%%@@%%#######%%%%%%%%#%%%######%%%%%%%%######%%%%%@`              </text>
+    <rect x="10" y="538.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.69s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.09s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip42">
+    <rect x="10" y="551.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.78s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip42)">
+    <text x="10" y="564.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            -#######%##%%%@@%%%%####%%%%%%%%%%%%%%%%%%%%%%%%@@%%%######%%%%:              </text>
+    <rect x="10" y="551.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.78s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.18s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip43">
+    <rect x="10" y="564.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.87s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip43)">
+    <text x="10" y="577.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            *#####ss##%%%%@@%%%%%%%%%%%%%@%%%%%%%%%%%%%%%%@@@@@%%#sss####%%-              </text>
+    <rect x="10" y="564.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.87s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.27s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip44">
+    <rect x="10" y="577.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="3.96s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip44)">
+    <text x="10" y="590.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            c####sss###%%%%@@%%%%%%%%@@@@%%%%%@%%%%%%%%%%%@@@#c-s######%%%%+              </text>
+    <rect x="10" y="577.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="3.96s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.36s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip45">
+    <rect x="10" y="590.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.05s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip45)">
+    <text x="10" y="603.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            s%%#######%%%%%@@@@@@@@@@@@@@%%%%%@%%%%%%@@@@@@@c--:c##sss#%%%%s              </text>
+    <rect x="10" y="590.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.05s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.45s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip46">
+    <rect x="10" y="603.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.14s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip46)">
+    <text x="10" y="616.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            +%%#####ss##%%%@%@@@@@@@@@@@%%%%%%@@%%%@@%@@@@#=``:+%#sccss#%%@s              </text>
+    <rect x="10" y="603.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.14s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.54s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip47">
+    <rect x="10" y="616.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.23s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip47)">
+    <text x="10" y="629.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            :%%%@%#ss##%%c*cc++*cccc*cccss###%%%%%%%##ssc+-:```:+#ss##%%%@@=              </text>
+    <rect x="10" y="616.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.23s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.63s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip48">
+    <rect x="10" y="629.2" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.32s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip48)">
+    <text x="10" y="642.1" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">            .#@@%%####s+```::==--::````````::::-:::::::::::--=--:=s##%%@@@#               </text>
+    <rect x="10" y="629.2" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.32s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.72s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip49">
+    <rect x="10" y="642.1" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.41s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip49)">
+    <text x="10" y="655.0" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">             +@@%%%s+-----==++++**+:``::::::::::::``::::--====++++*#%%%%@@=               </text>
+    <rect x="10" y="642.1" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.41s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.81s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip50">
+    <rect x="10" y="655.0" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.50s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip50)">
+    <text x="10" y="667.9" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">             `%@#*-::`:::--===+++**cccc+====+++++===---------------=s@@@@+                </text>
+    <rect x="10" y="655.0" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.50s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.90s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip51">
+    <rect x="10" y="667.9" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.59s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip51)">
+    <text x="10" y="680.8" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">              :%s*++=======+==---====+++*cc*+++++**++*+++++++++++==+*#@@+                 </text>
+    <rect x="10" y="667.9" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.59s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="4.99s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip52">
+    <rect x="10" y="680.8" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.68s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip52)">
+    <text x="10" y="693.7" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">               :ccccssssccccccc******+==-::=*cssc*+++++**cccccssccccs#%=                  </text>
+    <rect x="10" y="680.8" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.68s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.08s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip53">
+    <rect x="10" y="693.7" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.77s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip53)">
+    <text x="10" y="706.6" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                 .`=@@%%###sssccccccccssc*+=:`:-+cs#scccccss###%%#*++-.                   </text>
+    <rect x="10" y="693.7" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.77s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.17s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip54">
+    <rect x="10" y="706.6" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.86s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip54)">
+    <text x="10" y="719.5" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                   =@@@@@@%%###ssscc**+=--:`````.`*sscss##%%%@@@c                         </text>
+    <rect x="10" y="706.6" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.86s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.26s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip55">
+    <rect x="10" y="719.5" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="4.95s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip55)">
+    <text x="10" y="732.4" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                   +@@@@@@@@@@@@@%%%%%%%%##########%%#%%@@@@@@@@=                         </text>
+    <rect x="10" y="719.5" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="4.95s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.35s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip56">
+    <rect x="10" y="732.4" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="5.04s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip56)">
+    <text x="10" y="745.3" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                   s@@@@@@@%%%%%%%%%@@@@@@@%%%%%%%@@@@@@@@@@@@@#                          </text>
+    <rect x="10" y="732.4" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="5.04s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.44s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <clipPath id="clip57">
+    <rect x="10" y="745.3" width="0" height="12.9">
+      <animate attributeName="width" from="0" to="697" dur="0.4s"
+               begin="5.13s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#clip57)">
+    <text x="10" y="758.2" class="ramp" font-size="12.9" fill="#c9d1d9"
+          xml:space="preserve">                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@%*.                        </text>
+    <rect x="10" y="745.3" width="2.4" height="12.9" fill="#c9d1d9" opacity="0.85">
+      <animate attributeName="x" from="10" to="707" dur="0.4s"
+               begin="5.13s" fill="freeze"/>
+      <set attributeName="opacity" to="0" begin="5.53s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>
