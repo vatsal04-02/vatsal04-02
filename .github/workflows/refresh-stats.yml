@@ -1,0 +1,45 @@
+name: refresh stats
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC daily -- off the hour on purpose,
+                           # to avoid the top-of-hour pile-up on GitHub's runners
+  workflow_dispatch:        # manual trigger, for testing
+  # deliberately NO `push` trigger: this job commits its own output,
+  # so a push trigger would make it re-run on its own commit forever.
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: generate stats SVGs
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 generate_stats.py
+
+      - name: move generated files to repo root
+        run: mv scripts/stats.svg scripts/streak.svg scripts/langs.svg scripts/year.svg .
+
+      - name: commit if changed
+        run: |
+          FILES="stats.svg streak.svg langs.svg year.svg"
+          if [ -z "$(git status --porcelain -- $FILES)" ]; then
+            echo "no change, skipping commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $FILES
+          git commit -m "stats: refresh"
+          git push
