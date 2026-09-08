@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 84" width="640" height="84">
+  <style>
+    
+    text { font-family: 'JBM-Body', 'JBM-Head', ui-monospace, monospace; }
+    .head { font-family: 'JBM-Head', ui-monospace, monospace; }
+    .ramp { font-family: 'JBM-Ramp', ui-monospace, monospace; }
+    
+  </style>
+  <text x="4" y="34" font-size="30" font-weight="700" fill="#58a6ff"><animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze"/>6</text>
+  <text x="4" y="52" font-size="12" fill="#6e7681">current streak</text>
+  <text x="4" y="68" font-size="11" fill="#6e7681">Sep 8</text>
+  <line x1="320.0" y1="6" x2="320.0" y2="70" stroke="#6e7681" stroke-width="1" opacity="0.35"/>
+  <text x="360.0" y="34" font-size="30" font-weight="700" fill="#c9d1d9"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>6</text>
+  <text x="360.0" y="52" font-size="12" fill="#6e7681">longest streak</text>
+  <text x="360.0" y="68" font-size="11" fill="#6e7681">Sep 3 – Sep 8, 2026</text>
+</svg>
