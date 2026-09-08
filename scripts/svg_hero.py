@@ -6,16 +6,18 @@ Hero graphic, redesigned to match the reference layout:
                                                           125
                                                      best week
     [ ---- sparkline ---- ]
+    updated <date>, live from the GitHub API
 
 Columns, not a line -- daily/weekly contribution counts are sparse and
 discrete; a line chart between two real points implies values that were
 never actually there.
 """
+import datetime as dt
 from svg_common import wrap_svg, esc, INK, DIM, ACCENT
 
 
 def render_hero_svg(total: int, active_days: int, best_week: int, weekly_counts: list[int]) -> str:
-    W, H = 640, 190
+    W, H = 640, 206
     pad = 4
     chart_top = 120
     chart_h = 50
@@ -59,6 +61,10 @@ def render_hero_svg(total: int, active_days: int, best_week: int, weekly_counts:
         body.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3" fill="{ACCENT}">'
                      f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9s" fill="freeze"/>'
                      f'</circle>')
+
+    updated = dt.datetime.now(dt.timezone.utc).strftime("%b %-d, %Y")
+    body.append(f'<text x="{pad}" y="{chart_top + chart_h + 18}" font-size="10" fill="{DIM}">'
+                f'updated {esc(updated)} · live from the GitHub API</text>')
 
     return wrap_svg(W, H, "\n  ".join(body))
 

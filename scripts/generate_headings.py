@@ -29,7 +29,7 @@ def render_heading_svg(label: str, width: int = CONTENT_WIDTH, height: int = 30)
     return wrap_svg(width, height, body)
 
 
-HEADINGS = ["about", "stack", "projects", "stats", "the year"]
+HEADINGS = ["about", "stack", "projects", "stats", "the year", "about this page"]
 
 if __name__ == "__main__":
     import os
