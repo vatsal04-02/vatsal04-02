@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 30" width="640" height="30">
+  <style>
+    
+    text { font-family: 'JBM-Body', 'JBM-Head', ui-monospace, monospace; }
+    .head { font-family: 'JBM-Head', ui-monospace, monospace; }
+    .ramp { font-family: 'JBM-Ramp', ui-monospace, monospace; }
+    
+  </style>
+  
+  <text x="2" y="20" class="head" font-size="15" font-weight="700" fill="#c9d1d9">stats</text>
+  <line x1="60.5" y1="15" x2="638" y2="15" stroke="#6e7681" stroke-width="1" opacity="0.5"/>
+
+</svg>

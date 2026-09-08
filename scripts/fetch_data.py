@@ -127,6 +127,21 @@ def compute_streaks(days: list[DayCount]) -> dict:
     }
 
 
+def compute_active_days(days: list[DayCount]) -> int:
+    return sum(1 for d in days if d.count > 0)
+
+
+def compute_best_week(days: list[DayCount]) -> int:
+    if not days:
+        return 0
+    buckets: dict[tuple[int, int], int] = {}
+    for d in days:
+        iso_year, iso_week, _ = d.date.isocalendar()
+        key = (iso_year, iso_week)
+        buckets[key] = buckets.get(key, 0) + d.count
+    return max(buckets.values())
+
+
 def weekly_sparkline(days: list[DayCount], weeks: int = 12) -> list[int]:
     """Sum contributions into ISO weeks, most recent `weeks` buckets."""
     if not days:
@@ -140,10 +155,14 @@ def weekly_sparkline(days: list[DayCount], weeks: int = 12) -> list[int]:
     return [v for _, v in ordered[-weeks:]]
 
 
-def fetch_top_languages(login: str, token: str, top_n: int = 6) -> list[tuple[str, str, int]]:
-    """Returns [(language_name, hex_color, total_bytes), ...] sorted desc."""
+def fetch_top_languages(login: str, token: str, top_n: int = 6) -> dict:
+    """Returns both rankings the reference layout shows side by side:
+        by_bytes: [(name, color, total_bytes), ...] desc
+        by_repos: [(name, color, repo_count), ...] desc
+    A repo counts once per language it contains, regardless of size."""
     cursor = None
-    totals: dict[str, dict] = {}
+    bytes_totals: dict[str, dict] = {}
+    repo_counts: dict[str, dict] = {}
     while True:
         data = run_query(LANG_QUERY, {"login": login, "cursor": cursor}, token)
         repos = data["user"]["repositories"]
@@ -152,11 +171,17 @@ def fetch_top_languages(login: str, token: str, top_n: int = 6) -> list[tuple[st
                 name = edge["node"]["name"]
                 color = edge["node"]["color"] or "#999999"
                 size = edge["size"]
-                entry = totals.setdefault(name, {"color": color, "size": 0})
-                entry["size"] += size
+                b = bytes_totals.setdefault(name, {"color": color, "size": 0})
+                b["size"] += size
+                r = repo_counts.setdefault(name, {"color": color, "count": 0})
+                r["count"] += 1
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
 
-    ranked = sorted(totals.items(), key=lambda kv: kv[1]["size"], reverse=True)
-    return [(name, v["color"], v["size"]) for name, v in ranked[:top_n]]
+    by_bytes = sorted(bytes_totals.items(), key=lambda kv: kv[1]["size"], reverse=True)
+    by_repos = sorted(repo_counts.items(), key=lambda kv: kv[1]["count"], reverse=True)
+    return {
+        "by_bytes": [(name, v["color"], v["size"]) for name, v in by_bytes[:top_n]],
+        "by_repos": [(name, v["color"], v["count"]) for name, v in by_repos[:top_n]],
+    }

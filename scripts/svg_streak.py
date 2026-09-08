@@ -15,29 +15,28 @@ def _fmt_range(rng) -> str:
 
 
 def render_streak_svg(current: int, current_range, longest: int, longest_range) -> str:
-    W, H = 480, 140
-    pad = 24
+    W, H = 640, 84
+    pad = 4
 
     body = []
-    body.append(f'<text x="{pad}" y="34" class="head" font-size="13" fill="{DIM}">streak</text>')
 
     # current streak, left column
     cx = pad
-    body.append(f'<text x="{cx}" y="76" font-size="34" font-weight="700" fill="{ACCENT}">'
+    body.append(f'<text x="{cx}" y="34" font-size="30" font-weight="700" fill="{ACCENT}">'
                 f'<animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze"/>{current}</text>')
-    body.append(f'<text x="{cx}" y="96" font-size="12" fill="{DIM}">day current streak</text>')
-    body.append(f'<text x="{cx}" y="114" font-size="11" fill="{DIM}">{esc(_fmt_range(current_range))}</text>')
+    body.append(f'<text x="{cx}" y="52" font-size="12" fill="{DIM}">current streak</text>')
+    body.append(f'<text x="{cx}" y="68" font-size="11" fill="{DIM}">{esc(_fmt_range(current_range))}</text>')
 
     # divider
     mid = W / 2
-    body.append(f'<line x1="{mid}" y1="44" x2="{mid}" y2="{H-24}" stroke="{DIM}" stroke-width="1" opacity="0.35"/>')
+    body.append(f'<line x1="{mid}" y1="6" x2="{mid}" y2="{H-14}" stroke="{DIM}" stroke-width="1" opacity="0.35"/>')
 
     # longest streak, right column
-    rx = mid + 32
-    body.append(f'<text x="{rx}" y="76" font-size="34" font-weight="700" fill="{INK}">'
+    rx = mid + 40
+    body.append(f'<text x="{rx}" y="34" font-size="30" font-weight="700" fill="{INK}">'
                 f'<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>{longest}</text>')
-    body.append(f'<text x="{rx}" y="96" font-size="12" fill="{DIM}">day longest streak</text>')
-    body.append(f'<text x="{rx}" y="114" font-size="11" fill="{DIM}">{esc(_fmt_range(longest_range))}</text>')
+    body.append(f'<text x="{rx}" y="52" font-size="12" fill="{DIM}">longest streak</text>')
+    body.append(f'<text x="{rx}" y="68" font-size="11" fill="{DIM}">{esc(_fmt_range(longest_range))}</text>')
 
     return wrap_svg(W, H, "\n  ".join(body))
 

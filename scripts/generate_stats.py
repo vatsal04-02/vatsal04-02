@@ -2,14 +2,14 @@
 """
 Entry point run nightly by .github/workflows/refresh-stats.yml.
 
-Reads GH_LOGIN + GITHUB_TOKEN from the environment (both are provided
+Reads GH_LOGIN + GITHUB_TOKEN from the environment (both provided
 automatically by the workflow -- no personal access token needed), pulls
 contribution + language data, and writes:
 
-    stats.svg    hero total + weekly sparkline
+    hero.svg     total + active days + best week + sparkline
     streak.svg   current / longest streak
-    langs.svg    top languages by bytes
-    year.svg     one ramp character per day
+    langs.svg    top languages, by bytes and by repos
+    year.svg     one ramp character per day, month/weekday labelled
 
 Only the Python standard library is imported here (via gh_graphql.py),
 so there is nothing for CI to fail to install.
@@ -17,8 +17,15 @@ so there is nothing for CI to fail to install.
 import os
 import sys
 
-from fetch_data import fetch_contributions, compute_streaks, weekly_sparkline, fetch_top_languages
-from svg_stats import render_stats_svg
+from fetch_data import (
+    fetch_contributions,
+    compute_streaks,
+    compute_active_days,
+    compute_best_week,
+    weekly_sparkline,
+    fetch_top_languages,
+)
+from svg_hero import render_hero_svg
 from svg_streak import render_streak_svg
 from svg_langs import render_langs_svg
 from svg_year import render_year_svg
@@ -34,18 +41,18 @@ def main() -> int:
     print(f"fetching contributions for {login}...")
     contrib = fetch_contributions(login, token)
 
-    print("computing streaks...")
+    print("computing streaks / active days / best week...")
     streaks = compute_streaks(contrib.days)
-
-    print("building weekly sparkline...")
+    active_days = compute_active_days(contrib.days)
+    best_week = compute_best_week(contrib.days)
     sparkline = weekly_sparkline(contrib.days, weeks=12)
 
     print("fetching top languages...")
     langs = fetch_top_languages(login, token, top_n=6)
 
     print("rendering SVGs...")
-    with open("stats.svg", "w") as f:
-        f.write(render_stats_svg(contrib.total, sparkline, login))
+    with open("hero.svg", "w") as f:
+        f.write(render_hero_svg(contrib.total, active_days, best_week, sparkline))
 
     with open("streak.svg", "w") as f:
         f.write(render_streak_svg(
@@ -54,10 +61,10 @@ def main() -> int:
         ))
 
     with open("langs.svg", "w") as f:
-        f.write(render_langs_svg(langs))
+        f.write(render_langs_svg(langs["by_bytes"], langs["by_repos"]))
 
     with open("year.svg", "w") as f:
-        f.write(render_year_svg(contrib.days, login))
+        f.write(render_year_svg(contrib.days))
 
     print("done.")
     return 0

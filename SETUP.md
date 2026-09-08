@@ -7,17 +7,20 @@ SETUP.md                         <- this file
 .github/workflows/refresh-stats.yml
 scripts/
   gh_graphql.py                  <- stdlib-only GraphQL client
-  fetch_data.py                  <- contributions, streaks, languages
+  fetch_data.py                  <- contributions, streaks, active days, languages
   svg_common.py                  <- shared colours, ramp, font embedding
-  svg_stats.py                   <- hero total + sparkline
+  svg_hero.py                    <- hero: total + active days + best week + sparkline
   svg_streak.py                  <- streak card
-  svg_langs.py                   <- top languages bar chart
-  svg_year.py                    <- year grid, ramp characters
+  svg_langs.py                   <- top languages, by bytes and by repos
+  svg_year.py                    <- year grid: month/weekday labels + ramp chars
+  svg_heading.py / generate_headings.py
+                                  <- "about" / "stack" / "projects" / "stats" section headings
   generate_stats.py              <- orchestrator the workflow runs nightly
   generate_portrait.py           <- run locally, once, to build portrait.svg
   build_font_subsets.sh          <- run locally, once, to embed a font
   requirements-portrait.txt      <- deps for generate_portrait.py ONLY
 fonts/                           <- put ramp.woff2 / headings.woff2 / basic-latin.woff2 here
+headings/                        <- generated once by generate_headings.py, committed as static files
 ```
 
 Note: `generate_stats.py` and everything it imports uses **only the Python
@@ -44,6 +47,21 @@ gh repo create vatsal04-02 --public --source=. --push
 ```
 The repo name must match your username exactly, or GitHub won't treat it
 as your profile README.
+
+## Step 1.5 — generate the section headings (local, one-time)
+
+The "about" / "stack" / "projects" / "stats" / "the year" labels in
+`README.md` are images, not text — GitHub strips real font control from
+markdown, so a heading with your own typeface has to be an SVG. Build them
+once:
+
+```bash
+cd scripts
+python3 generate_headings.py
+```
+
+This writes `headings/about.svg`, `headings/stack.svg`, etc. Re-run it any
+time you rename a section or add a new one. Commit the `headings/` folder.
 
 ## Step 2 — generate the portrait (local, one-time)
 
