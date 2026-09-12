@@ -6,7 +6,7 @@
     .ramp { font-family: 'JBM-Ramp', ui-monospace, monospace; }
     
   </style>
-  <text x="4" y="16" font-size="11" fill="#6e7681">28 of 365 days had a contribution</text>
+  <text x="4" y="16" font-size="11" fill="#6e7681">26 of 365 days had a contribution</text>
   <text x="636" y="16" font-size="10" fill="#6e7681" text-anchor="end">less . - c @ more</text>
   <text x="0" y="64.9" font-size="9" fill="#6e7681">mon</text>
   <text x="0" y="87.7" font-size="9" fill="#6e7681">wed</text>
@@ -23,7 +23,6 @@
   <text x="510.2" y="38" font-size="9" fill="#6e7681">jul</text>
   <text x="556.0" y="38" font-size="9" fill="#6e7681">aug</text>
   <text x="613.1" y="38" font-size="9" fill="#6e7681">sep</text>
-  <text x="30.0" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
   <text x="30.0" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
   <text x="41.4" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.012s" fill="freeze"/></text>
   <text x="41.4" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.012s" fill="freeze"/></text>
@@ -330,9 +329,9 @@
   <text x="533.1" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
   <text x="533.1" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
   <text x="533.1" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
-  <text x="533.1" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
+  <text x="533.1" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">-<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
   <text x="533.1" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
-  <text x="533.1" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
+  <text x="533.1" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">-<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.528s" fill="freeze"/></text>
   <text x="544.5" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.540s" fill="freeze"/></text>
   <text x="544.5" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.540s" fill="freeze"/></text>
   <text x="544.5" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.540s" fill="freeze"/></text>
@@ -344,28 +343,28 @@
   <text x="556.0" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
   <text x="556.0" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
   <text x="556.0" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
-  <text x="556.0" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">-<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
-  <text x="556.0" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">*<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
+  <text x="556.0" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">=<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
+  <text x="556.0" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
   <text x="556.0" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.552s" fill="freeze"/></text>
   <text x="567.4" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="567.4" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="567.4" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="567.4" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
-  <text x="567.4" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
+  <text x="567.4" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">-<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="567.4" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="567.4" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.564s" fill="freeze"/></text>
   <text x="578.8" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="578.8" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="578.8" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="578.8" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">.<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
-  <text x="578.8" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">#<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
+  <text x="578.8" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">@<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="578.8" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="578.8" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.576s" fill="freeze"/></text>
   <text x="590.3" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="590.3" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="590.3" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="590.3" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
-  <text x="590.3" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">=<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
+  <text x="590.3" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">+<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="590.3" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="590.3" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.588s" fill="freeze"/></text>
   <text x="601.7" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
@@ -374,8 +373,8 @@
   <text x="601.7" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
   <text x="601.7" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
   <text x="601.7" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
-  <text x="601.7" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">-<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
-  <text x="613.1" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
+  <text x="601.7" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">=<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.600s" fill="freeze"/></text>
+  <text x="613.1" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">s<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
   <text x="613.1" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">.<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
   <text x="613.1" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
   <text x="613.1" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
@@ -384,8 +383,9 @@
   <text x="613.1" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.612s" fill="freeze"/></text>
   <text x="624.6" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">`<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
   <text x="624.6" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">:<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
-  <text x="624.6" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">@<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
+  <text x="624.6" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
   <text x="624.6" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
-  <text x="624.6" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">.<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
-  <text x="624.6" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0">.<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
+  <text x="624.6" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
+  <text x="624.6" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
+  <text x="624.6" y="122.0" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
 </svg>
