@@ -15,5 +15,5 @@
   <path d="M 4.0,170.0 L 61.5,170.0 L 118.9,170.0 L 176.4,126.7 L 233.8,163.3 L 291.3,120.0 L 348.7,156.7 L 406.2,120.0 L 463.6,143.3 L 521.1,123.3 L 578.5,133.3 L 636.0,133.3 L 636.0,170 L 4.0,170 Z" fill="#6e7681" opacity="0.12"/>
   <path d="M 4.0,170.0 L 61.5,170.0 L 118.9,170.0 L 176.4,126.7 L 233.8,163.3 L 291.3,120.0 L 348.7,156.7 L 406.2,120.0 L 463.6,143.3 L 521.1,123.3 L 578.5,133.3 L 636.0,133.3" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" pathLength="100"><animate attributeName="stroke-dasharray" from="0,100" to="100,0" dur="0.9s" fill="freeze"/></path>
   <circle cx="636.0" cy="133.3" r="3" fill="#58a6ff"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9s" fill="freeze"/></circle>
-  <text x="4" y="188" font-size="10" fill="#6e7681">updated Sep 12, 2026 · live from the GitHub API</text>
+  <text x="4" y="188" font-size="10" fill="#6e7681">updated Sep 13, 2026 · live from the GitHub API</text>
 </svg>
