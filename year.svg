@@ -23,7 +23,6 @@
   <text x="498.8" y="38" font-size="9" fill="#6e7681">jul</text>
   <text x="544.5" y="38" font-size="9" fill="#6e7681">aug</text>
   <text x="601.7" y="38" font-size="9" fill="#6e7681">sep</text>
-  <text x="30.0" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
   <text x="30.0" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
   <text x="30.0" y="99.2" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
   <text x="30.0" y="110.6" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.000s" fill="freeze"/></text>
@@ -388,4 +387,5 @@
   <text x="624.6" y="53.4" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
   <text x="624.6" y="64.9" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
   <text x="624.6" y="76.3" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
+  <text x="624.6" y="87.7" class="ramp" font-size="10.4" fill="#c9d1d9" opacity="0"> <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.624s" fill="freeze"/></text>
 </svg>
