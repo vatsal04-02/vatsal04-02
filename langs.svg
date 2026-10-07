@@ -8,42 +8,42 @@
   </style>
   <text x="4" y="16" font-size="11" fill="#6e7681" letter-spacing="1">by bytes</text>
   <text x="4" y="40" font-size="12" fill="#c9d1d9">JavaScript</text>
-  <text x="300.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">52%</text>
+  <text x="300.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">51%</text>
   <rect x="4" y="46" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="46" width="131.1" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="131.1" dur="0.5s" begin="0.00s" fill="freeze"/></rect>
+  <rect x="4" y="46" width="127.8" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="127.8" dur="0.5s" begin="0.00s" fill="freeze"/></rect>
   <text x="4" y="66" font-size="12" fill="#c9d1d9">TypeScript</text>
   <text x="300.0" y="66" font-size="11" fill="#6e7681" text-anchor="end">16%</text>
   <rect x="4" y="72" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="72" width="39.6" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="39.6" dur="0.5s" begin="0.06s" fill="freeze"/></rect>
+  <rect x="4" y="72" width="40.5" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="40.5" dur="0.5s" begin="0.06s" fill="freeze"/></rect>
   <text x="4" y="92" font-size="12" fill="#c9d1d9">Astro</text>
   <text x="300.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">11%</text>
   <rect x="4" y="98" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="98" width="28.5" height="7" rx="3" fill="#ff5a03"><animate attributeName="width" from="0" to="28.5" dur="0.5s" begin="0.12s" fill="freeze"/></rect>
+  <rect x="4" y="98" width="27.6" height="7" rx="3" fill="#ff5a03"><animate attributeName="width" from="0" to="27.6" dur="0.5s" begin="0.12s" fill="freeze"/></rect>
   <text x="4" y="118" font-size="12" fill="#c9d1d9">CSS</text>
   <text x="300.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">10%</text>
   <rect x="4" y="124" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="124" width="25.0" height="7" rx="3" fill="#663399"><animate attributeName="width" from="0" to="25.0" dur="0.5s" begin="0.18s" fill="freeze"/></rect>
+  <rect x="4" y="124" width="24.4" height="7" rx="3" fill="#663399"><animate attributeName="width" from="0" to="24.4" dur="0.5s" begin="0.18s" fill="freeze"/></rect>
   <text x="4" y="144" font-size="12" fill="#c9d1d9">HTML</text>
-  <text x="300.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">6%</text>
+  <text x="300.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">7%</text>
   <rect x="4" y="150" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="150" width="14.0" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="14.0" dur="0.5s" begin="0.24s" fill="freeze"/></rect>
+  <rect x="4" y="150" width="18.2" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="18.2" dur="0.5s" begin="0.24s" fill="freeze"/></rect>
   <text x="4" y="170" font-size="12" fill="#c9d1d9">Python</text>
   <text x="300.0" y="170" font-size="11" fill="#6e7681" text-anchor="end">5%</text>
   <rect x="4" y="176" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="176" width="11.8" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="11.8" dur="0.5s" begin="0.30s" fill="freeze"/></rect>
+  <rect x="4" y="176" width="11.4" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="11.4" dur="0.5s" begin="0.30s" fill="freeze"/></rect>
   <text x="340.0" y="16" font-size="11" fill="#6e7681" letter-spacing="1">by repos</text>
   <text x="340.0" y="40" font-size="12" fill="#c9d1d9">CSS</text>
   <text x="636.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">12</text>
   <rect x="340.0" y="46" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
   <rect x="340.0" y="46" width="250.0" height="7" rx="3" fill="#663399"><animate attributeName="width" from="0" to="250.0" dur="0.5s" begin="0.15s" fill="freeze"/></rect>
-  <text x="340.0" y="66" font-size="12" fill="#c9d1d9">JavaScript</text>
-  <text x="636.0" y="66" font-size="11" fill="#6e7681" text-anchor="end">9</text>
+  <text x="340.0" y="66" font-size="12" fill="#c9d1d9">HTML</text>
+  <text x="636.0" y="66" font-size="11" fill="#6e7681" text-anchor="end">10</text>
   <rect x="340.0" y="72" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="72" width="187.5" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="187.5" dur="0.5s" begin="0.21s" fill="freeze"/></rect>
-  <text x="340.0" y="92" font-size="12" fill="#c9d1d9">HTML</text>
+  <rect x="340.0" y="72" width="208.3" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="208.3" dur="0.5s" begin="0.21s" fill="freeze"/></rect>
+  <text x="340.0" y="92" font-size="12" fill="#c9d1d9">JavaScript</text>
   <text x="636.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">9</text>
   <rect x="340.0" y="98" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="98" width="187.5" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="187.5" dur="0.5s" begin="0.27s" fill="freeze"/></rect>
+  <rect x="340.0" y="98" width="187.5" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="187.5" dur="0.5s" begin="0.27s" fill="freeze"/></rect>
   <text x="340.0" y="118" font-size="12" fill="#c9d1d9">TypeScript</text>
   <text x="636.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">3</text>
   <rect x="340.0" y="124" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
