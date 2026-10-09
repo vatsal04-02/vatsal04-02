@@ -44,14 +44,14 @@
   <text x="636.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">9</text>
   <rect x="340.0" y="98" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
   <rect x="340.0" y="98" width="187.5" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="187.5" dur="0.5s" begin="0.27s" fill="freeze"/></rect>
-  <text x="340.0" y="118" font-size="12" fill="#c9d1d9">TypeScript</text>
+  <text x="340.0" y="118" font-size="12" fill="#c9d1d9">Python</text>
   <text x="636.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">3</text>
   <rect x="340.0" y="124" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="124" width="62.5" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="62.5" dur="0.5s" begin="0.33s" fill="freeze"/></rect>
-  <text x="340.0" y="144" font-size="12" fill="#c9d1d9">Python</text>
+  <rect x="340.0" y="124" width="62.5" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="62.5" dur="0.5s" begin="0.33s" fill="freeze"/></rect>
+  <text x="340.0" y="144" font-size="12" fill="#c9d1d9">TypeScript</text>
   <text x="636.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">3</text>
   <rect x="340.0" y="150" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="150" width="62.5" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="62.5" dur="0.5s" begin="0.39s" fill="freeze"/></rect>
+  <rect x="340.0" y="150" width="62.5" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="62.5" dur="0.5s" begin="0.39s" fill="freeze"/></rect>
   <text x="340.0" y="170" font-size="12" fill="#c9d1d9">Shell</text>
   <text x="636.0" y="170" font-size="11" fill="#6e7681" text-anchor="end">2</text>
   <rect x="340.0" y="176" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
