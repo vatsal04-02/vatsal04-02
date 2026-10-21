@@ -8,29 +8,29 @@
   </style>
   <text x="4" y="16" font-size="11" fill="#6e7681" letter-spacing="1">by bytes</text>
   <text x="4" y="40" font-size="12" fill="#c9d1d9">JavaScript</text>
-  <text x="300.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">61%</text>
+  <text x="300.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">54%</text>
   <rect x="4" y="46" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="46" width="153.2" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="153.2" dur="0.5s" begin="0.00s" fill="freeze"/></rect>
+  <rect x="4" y="46" width="134.9" height="7" rx="3" fill="#f1e05a"><animate attributeName="width" from="0" to="134.9" dur="0.5s" begin="0.00s" fill="freeze"/></rect>
   <text x="4" y="66" font-size="12" fill="#c9d1d9">TypeScript</text>
-  <text x="300.0" y="66" font-size="11" fill="#6e7681" text-anchor="end">20%</text>
+  <text x="300.0" y="66" font-size="11" fill="#6e7681" text-anchor="end">18%</text>
   <rect x="4" y="72" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="72" width="50.5" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="50.5" dur="0.5s" begin="0.06s" fill="freeze"/></rect>
-  <text x="4" y="92" font-size="12" fill="#c9d1d9">CSS</text>
-  <text x="300.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">8%</text>
+  <rect x="4" y="72" width="45.0" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="45.0" dur="0.5s" begin="0.06s" fill="freeze"/></rect>
+  <text x="4" y="92" font-size="12" fill="#c9d1d9">Python</text>
+  <text x="300.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">13%</text>
   <rect x="4" y="98" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="98" width="19.9" height="7" rx="3" fill="#663399"><animate attributeName="width" from="0" to="19.9" dur="0.5s" begin="0.12s" fill="freeze"/></rect>
-  <text x="4" y="118" font-size="12" fill="#c9d1d9">Astro</text>
-  <text x="300.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">6%</text>
+  <rect x="4" y="98" width="32.4" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="32.4" dur="0.5s" begin="0.12s" fill="freeze"/></rect>
+  <text x="4" y="118" font-size="12" fill="#c9d1d9">CSS</text>
+  <text x="300.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">7%</text>
   <rect x="4" y="124" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="124" width="14.9" height="7" rx="3" fill="#ff5a03"><animate attributeName="width" from="0" to="14.9" dur="0.5s" begin="0.18s" fill="freeze"/></rect>
-  <text x="4" y="144" font-size="12" fill="#c9d1d9">HTML</text>
-  <text x="300.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">3%</text>
+  <rect x="4" y="124" width="17.6" height="7" rx="3" fill="#663399"><animate attributeName="width" from="0" to="17.6" dur="0.5s" begin="0.18s" fill="freeze"/></rect>
+  <text x="4" y="144" font-size="12" fill="#c9d1d9">Astro</text>
+  <text x="300.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">5%</text>
   <rect x="4" y="150" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="150" width="8.0" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="8.0" dur="0.5s" begin="0.24s" fill="freeze"/></rect>
-  <text x="4" y="170" font-size="12" fill="#c9d1d9">Python</text>
-  <text x="300.0" y="170" font-size="11" fill="#6e7681" text-anchor="end">1%</text>
+  <rect x="4" y="150" width="13.2" height="7" rx="3" fill="#ff5a03"><animate attributeName="width" from="0" to="13.2" dur="0.5s" begin="0.24s" fill="freeze"/></rect>
+  <text x="4" y="170" font-size="12" fill="#c9d1d9">HTML</text>
+  <text x="300.0" y="170" font-size="11" fill="#6e7681" text-anchor="end">3%</text>
   <rect x="4" y="176" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="4" y="176" width="5.0" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="5.0" dur="0.5s" begin="0.30s" fill="freeze"/></rect>
+  <rect x="4" y="176" width="7.0" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="7.0" dur="0.5s" begin="0.30s" fill="freeze"/></rect>
   <text x="340.0" y="16" font-size="11" fill="#6e7681" letter-spacing="1">by repos</text>
   <text x="340.0" y="40" font-size="12" fill="#c9d1d9">CSS</text>
   <text x="636.0" y="40" font-size="11" fill="#6e7681" text-anchor="end">14</text>
@@ -44,16 +44,16 @@
   <text x="636.0" y="92" font-size="11" fill="#6e7681" text-anchor="end">13</text>
   <rect x="340.0" y="98" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
   <rect x="340.0" y="98" width="232.1" height="7" rx="3" fill="#e34c26"><animate attributeName="width" from="0" to="232.1" dur="0.5s" begin="0.27s" fill="freeze"/></rect>
-  <text x="340.0" y="118" font-size="12" fill="#c9d1d9">TypeScript</text>
-  <text x="636.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">4</text>
+  <text x="340.0" y="118" font-size="12" fill="#c9d1d9">Python</text>
+  <text x="636.0" y="118" font-size="11" fill="#6e7681" text-anchor="end">5</text>
   <rect x="340.0" y="124" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="124" width="71.4" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="71.4" dur="0.5s" begin="0.33s" fill="freeze"/></rect>
-  <text x="340.0" y="144" font-size="12" fill="#c9d1d9">Python</text>
-  <text x="636.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">4</text>
+  <rect x="340.0" y="124" width="89.3" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="89.3" dur="0.5s" begin="0.33s" fill="freeze"/></rect>
+  <text x="340.0" y="144" font-size="12" fill="#c9d1d9">Shell</text>
+  <text x="636.0" y="144" font-size="11" fill="#6e7681" text-anchor="end">5</text>
   <rect x="340.0" y="150" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="150" width="71.4" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="71.4" dur="0.5s" begin="0.39s" fill="freeze"/></rect>
-  <text x="340.0" y="170" font-size="12" fill="#c9d1d9">Shell</text>
+  <rect x="340.0" y="150" width="89.3" height="7" rx="3" fill="#89e051"><animate attributeName="width" from="0" to="89.3" dur="0.5s" begin="0.39s" fill="freeze"/></rect>
+  <text x="340.0" y="170" font-size="12" fill="#c9d1d9">TypeScript</text>
   <text x="636.0" y="170" font-size="11" fill="#6e7681" text-anchor="end">4</text>
   <rect x="340.0" y="176" width="250.0" height="7" rx="3" fill="#6e7681" opacity="0.18"/>
-  <rect x="340.0" y="176" width="71.4" height="7" rx="3" fill="#89e051"><animate attributeName="width" from="0" to="71.4" dur="0.5s" begin="0.45s" fill="freeze"/></rect>
+  <rect x="340.0" y="176" width="71.4" height="7" rx="3" fill="#3178c6"><animate attributeName="width" from="0" to="71.4" dur="0.5s" begin="0.45s" fill="freeze"/></rect>
 </svg>
